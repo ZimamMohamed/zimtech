@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ZimTech — Innovative technology services including Web Development, UI/UX Design, SEO, IT Consulting, and AI Workflow Creation. Transform your business with cutting-edge digital solutions." />
+  <meta name="keywords" content="web development, UI UX design, SEO, IT consulting, AI workflow, digital solutions, technology services" />
+  <meta name="author" content="Zimam Jaufer" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="ZimTech | Technology Services & Digital Solutions" />
+  <meta property="og:description" content="We help businesses grow with innovative technology. Web Dev, UI/UX, SEO, IT Consulting, AI Workflows." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zimtech.io" />
+  <title>ZimTech | Technology Services & Digital Solutions</title>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "ZimTech",
+    "description": "Technology services company specializing in Web Development, UI/UX Design, SEO, IT Consulting, and AI Workflow Automation.",
+    "url": "https://zimtech.io",
+    "founder": {
+      "@type": "Person",
+      "name": "Zimam Jaufer",
+      "jobTitle": "Founder & Technology Consultant"
+    },
+    "serviceType": ["Web Development", "UI/UX Design", "SEO", "IT Consulting", "AI Workflow Creation"]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">Zim<span>Tech</span></a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== MOBILE MENU ===== -->
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#founder" class="mobile-link">Founder</a>
+    <a href="#portfolio" class="mobile-link">Work</a>
+    <a href="#testimonials" class="mobile-link">Reviews</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" aria-labelledby="hero-heading">
+    <div class="grid-bg"></div>
+    <div class="hero-orb orb-1" aria-hidden="true"></div>
+    <div class="hero-orb orb-2" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge" aria-label="Status">Available for Projects</div>
+        <h1 id="hero-heading">
+          Building the Future<br>with <span class="accent-word">Smart Technology</span>
+        </h1>
+        <p class="hero-sub">
+          We design, develop, and deploy digital solutions that help businesses grow faster, work smarter, and stand out in the digital world.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            Get Started
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+        </div>
+        <div class="hero-stats" role="list" aria-label="Company statistics">
+          <div role="listitem">
+            <div class="stat-num">30<span>+</span></div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-num">98<span>%</span></div>
+            <div class="stat-label">Client Satisfaction</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-num">3<span>+</span></div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual fade-up">
+          <div class="about-card">
+            <div class="section-label">Who We Are</div>
+            <h2 id="about-heading" class="section-title">Transforming Ideas Into Digital Reality</h2>
+            <p style="color: var(--text-muted); font-weight: 300; line-height: 1.8; margin-bottom: 24px;">
+              ZimTech is a full-service technology company dedicated to delivering innovative digital solutions for modern businesses. Our mission is to bridge the gap between complex technology and practical business outcomes.
+            </p>
+            <p style="color: var(--text-muted); font-weight: 300; line-height: 1.8;">
+              From startups to established enterprises, we partner with organizations to build scalable, user-centric, and future-ready digital products that drive real results.
+            </p>
+            <div class="about-tags" role="list" aria-label="Our specializations">
+              <span class="tag" role="listitem">Web Development</span>
+              <span class="tag" role="listitem">UI/UX Design</span>
+              <span class="tag" role="listitem">SEO Strategy</span>
+              <span class="tag" role="listitem">AI Integration</span>
+              <span class="tag" role="listitem">IT Consulting</span>
+            </div>
+          </div>
+        </div>
+        <div class="fade-up">
+          <div class="section-label">Our Expertise</div>
+          <h2 class="section-title">Built on a Foundation of Skill</h2>
+          <p style="color: var(--text-muted); font-weight: 300; margin-bottom: 36px;">
+            Our team brings deep expertise across every layer of the technology stack, ensuring quality in every deliverable.
+          </p>
+          <div role="list" aria-label="Skill levels">
+            <div class="about-metric" role="listitem">
+              <span class="metric-label">Web Development</span>
+              <div class="metric-bar"><div class="metric-fill" data-width="95"></div></div>
+              <span class="metric-pct">95%</span>
+            </div>
+            <div class="about-metric" role="listitem">
+              <span class="metric-label">UI/UX Design</span>
+              <div class="metric-bar"><div class="metric-fill" data-width="90"></div></div>
+              <span class="metric-pct">90%</span>
+            </div>
+            <div class="about-metric" role="listitem">
+              <span class="metric-label">SEO &amp; Marketing</span>
+              <div class="metric-bar"><div class="metric-fill" data-width="88"></div></div>
+              <span class="metric-pct">88%</span>
+            </div>
+            <div class="about-metric" role="listitem">
+              <span class="metric-label">AI &amp; Automation</span>
+              <div class="metric-bar"><div class="metric-fill" data-width="85"></div></div>
+              <span class="metric-pct">85%</span>
+            </div>
+            <div class="about-metric" role="listitem">
+              <span class="metric-label">IT Consulting</span>
+              <div class="metric-bar"><div class="metric-fill" data-width="92"></div></div>
+              <span class="metric-pct">92%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-label">What We Do</div>
+      <h2 id="services-heading" class="section-title">Our Core Services</h2>
+      <p class="section-sub">Comprehensive technology solutions designed to accelerate your business growth and digital transformation.</p>
+      <div class="services-grid" role="list">
+
+        <article class="service-card fade-up" role="listitem">
+          <span class="service-num" aria-hidden="true">01</span>
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>We build high-performance, scalable websites and web applications using modern technologies. From landing pages to complex platforms, we deliver pixel-perfect code.</p>
+        </article>
+
+        <article class="service-card fade-up" role="listitem">
+          <span class="service-num" aria-hidden="true">02</span>
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <h3>UI/UX Designing</h3>
+          <p>We craft intuitive, visually stunning interfaces that delight users and drive conversions. Our design process is research-driven and rooted in user psychology.</p>
+        </article>
+
+        <article class="service-card fade-up" role="listitem">
+          <span class="service-num" aria-hidden="true">03</span>
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3>Search Engine Optimization</h3>
+          <p>We improve your search rankings with technical SEO, content strategy, and authoritative backlink building — bringing qualified organic traffic to your website.</p>
+        </article>
+
+        <article class="service-card fade-up" role="listitem">
+          <span class="service-num" aria-hidden="true">04</span>
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>IT Consulting</h3>
+          <p>Strategic technology advisory to align your IT infrastructure with business goals. We help you make smart technology decisions, reduce costs, and scale efficiently.</p>
+        </article>
+
+        <article class="service-card fade-up" role="listitem">
+          <span class="service-num" aria-hidden="true">05</span>
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3>AI Workflow Creation</h3>
+          <p>We automate repetitive tasks and optimize business workflows using cutting-edge AI tools. Unlock productivity gains and let intelligent systems handle the heavy lifting.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOUNDER ===== -->
+  <section id="founder" class="section" aria-labelledby="founder-heading">
+    <div class="container">
+      <div class="founder-grid">
+        <div class="founder-photo-wrap fade-up">
+          <div class="founder-photo-frame">
+            <img 
+            src="zim.png"
+            alt="Zimam Jaufer — Founder & Technology Consultant at ZimTech"
+            style="width:100%; height:100%; object-fit:cover; object-position:center top;"
+            />
+          </div>
+          <div class="founder-badge-card" aria-label="5 plus years of experience">
+            <div class="num">3+</div>
+            <div class="lbl">Years Experience</div>
+          </div>
+        </div>
+        <div class="fade-up">
+          <div class="section-label">Meet the Founder</div>
+          <div class="founder-name" id="founder-heading">Zimam Jaufer</div>
+          <div class="founder-title">Founder &amp; Technology Consultant</div>
+          <p class="founder-bio">
+            Zimam Jaufer is a passionate technologist and digital strategist with over 3 years of hands-on experience in web development, UI/UX design, and digital consulting. He founded ZimTech with a singular vision: to make enterprise-grade technology accessible to businesses of all sizes.
+          </p>
+          <p class="founder-bio">
+            With deep expertise in building scalable digital products and implementing AI-powered workflows, Zimam has helped dozens of companies across industries modernize their operations, establish compelling online presences, and achieve measurable growth through smart technology adoption.
+          </p>
+          <div class="founder-skills" role="list" aria-label="Areas of expertise">
+            <span class="skill-pill" role="listitem">React &amp; Next.js</span>
+            <span class="skill-pill" role="listitem">Figma &amp; Design Systems</span>
+            <span class="skill-pill" role="listitem">Technical SEO</span>
+            <span class="skill-pill" role="listitem">AI &amp; Automation</span>
+            <span class="skill-pill" role="listitem">Node.js</span>
+            <span class="skill-pill" role="listitem">Digital Strategy</span>
+          </div>
+          <div class="founder-social" aria-label="Social media links">
+            <a href="https://www.linkedin.com/in/mohamedzimam/" class="social-link" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/MhdZimam" class="social-link" aria-label="Twitter/X profile">
+              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="https://github.com/ZimamMohamed" class="social-link" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+            <a href="zimamm40@gmail.com" class="social-link" aria-label="Email contact">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section id="why" class="section" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="section-label">Why ZimTech</div>
+      <h2 id="why-heading" class="section-title">Built Different, Built Better</h2>
+      <p class="section-sub">We don't just build websites — we build digital engines that generate real business value.</p>
+      <div class="why-grid" role="list">
+        <div class="why-item fade-up" role="listitem">
+          <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Results-Driven Approach</h3>
+          <p>Every decision we make is tied to your business goals. We measure success by the outcomes we deliver, not just deliverables.</p>
+        </div>
+        <div class="why-item fade-up" role="listitem">
+          <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3>On-Time Delivery</h3>
+          <p>We respect your timeline. Our agile workflows and proactive communication ensure projects are delivered on schedule, every time.</p>
+        </div>
+        <div class="why-item fade-up" role="listitem">
+          <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+          <h3>Scalable Solutions</h3>
+          <p>We architect systems that grow with your business. Our solutions are modular, maintainable, and built for the long term.</p>
+        </div>
+        <div class="why-item fade-up" role="listitem">
+          <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <h3>Dedicated Partnership</h3>
+          <p>We work as an extension of your team. Transparent communication, regular updates, and genuine care for your success.</p>
+        </div>
+        <div class="why-item fade-up" role="listitem">
+          <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <h3>Cutting-Edge Technology</h3>
+          <p>We stay ahead of the curve. From modern frameworks to AI tooling, we use the best technology available to build your product.</p>
+        </div>
+        <div class="why-item fade-up" role="listitem">
+          <div class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+          <h3>Transparent Pricing</h3>
+          <p>No hidden fees. We offer clear, honest pricing with project-based and retainer models to fit any budget and scope.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="section" aria-labelledby="portfolio-heading">
+    <div class="container">
+      <div class="section-label">Our Work</div>
+      <h2 id="portfolio-heading" class="section-title">Selected Projects</h2>
+      <p class="section-sub">A curated selection of work that demonstrates the breadth of our capabilities and the quality of our craft.</p>
+      <div class="portfolio-grid" role="list">
+
+        <article class="portfolio-card fade-up" role="listitem">
+          <div class="portfolio-thumb">
+            <div class="portfolio-thumb-inner" style="background: linear-gradient(135deg, #0d1f3c, #1a3a6e);">E-Commerce Platform</div>
+          </div>
+          <div class="portfolio-body">
+            <div class="portfolio-category">Web Development</div>
+            <h3>NexShop E-Commerce Platform</h3>
+            <p>A full-featured online store with custom CMS, AI product recommendations, and seamless checkout experience.</p>
+            <a href="#contact" class="portfolio-link" aria-label="Learn more about NexShop project">View Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </article>
+
+        <article class="portfolio-card fade-up" role="listitem">
+          <div class="portfolio-thumb">
+            <div class="portfolio-thumb-inner" style="background: linear-gradient(135deg, #1a0d3c, #3a1a6e);">SaaS Dashboard</div>
+          </div>
+          <div class="portfolio-body">
+            <div class="portfolio-category">UI/UX Design</div>
+            <h3>FlowMetrics Analytics Dashboard</h3>
+            <p>Complex data visualization dashboard redesigned for clarity and usability, reducing user confusion by 60%.</p>
+            <a href="#contact" class="portfolio-link" aria-label="Learn more about FlowMetrics project">View Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </article>
+
+        <article class="portfolio-card fade-up" role="listitem">
+          <div class="portfolio-thumb">
+            <div class="portfolio-thumb-inner" style="background: linear-gradient(135deg, #0d3c1a, #1a6e3a);">SEO Campaign</div>
+          </div>
+          <div class="portfolio-body">
+            <div class="portfolio-category">SEO</div>
+            <h3>GreenLeaf Organic — SEO Growth</h3>
+            <p>Took a health brand from page 4 to position #1 for 12 high-volume keywords in under 6 months.</p>
+            <a href="#contact" class="portfolio-link" aria-label="Learn more about GreenLeaf SEO project">View Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </article>
+
+        <article class="portfolio-card fade-up" role="listitem">
+          <div class="portfolio-thumb">
+            <div class="portfolio-thumb-inner" style="background: linear-gradient(135deg, #3c1a0d, #6e3a1a);">AI Automation</div>
+          </div>
+          <div class="portfolio-body">
+            <div class="portfolio-category">AI Workflow</div>
+            <h3>LegalEase Document Automation</h3>
+            <p>Built an AI pipeline that automated 80% of a law firm's document review process, saving 30+ hours per week.</p>
+            <a href="#contact" class="portfolio-link" aria-label="Learn more about LegalEase AI project">View Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </article>
+
+        <article class="portfolio-card fade-up" role="listitem">
+          <div class="portfolio-thumb">
+            <div class="portfolio-thumb-inner" style="background: linear-gradient(135deg, #0d2a3c, #1a5a6e);">IT Consulting</div>
+          </div>
+          <div class="portfolio-body">
+            <div class="portfolio-category">IT Consulting</div>
+            <h3>CloudMigrate — FinTech Infrastructure</h3>
+            <p>Designed and executed a zero-downtime migration to AWS for a fintech startup processing $2M/day in transactions.</p>
+            <a href="#contact" class="portfolio-link" aria-label="Learn more about CloudMigrate project">View Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </article>
+
+        <article class="portfolio-card fade-up" role="listitem">
+          <div class="portfolio-thumb">
+            <div class="portfolio-thumb-inner" style="background: linear-gradient(135deg, #2a0d3c, #5a1a6e);">Mobile App</div>
+          </div>
+          <div class="portfolio-body">
+            <div class="portfolio-category">Web Development</div>
+            <h3>PulseHealth Patient Portal</h3>
+            <p>A HIPAA-compliant web app connecting patients with doctors, featuring real-time scheduling and telemedicine.</p>
+            <a href="#contact" class="portfolio-link" aria-label="Learn more about PulseHealth project">View Case Study <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="section" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-label">Client Love</div>
+      <h2 id="testimonials-heading" class="section-title">What Our Clients Say</h2>
+      <p class="section-sub">Don't take our word for it — here's what the people we've worked with have to say.</p>
+      <div class="testimonials-grid" role="list">
+
+        <article class="testimonial-card fade-up" role="listitem">
+          <div class="stars" aria-label="5 star rating"><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span></div>
+          <p class="testimonial-text">"Zimam and his team completely transformed our online presence. The new website is faster, more beautiful, and our conversion rate has doubled since launch. Truly exceptional work."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #00e5ff, #00b8cc);" aria-hidden="true">SA</div>
+            <div><div class="author-name">Sarah</div><div class="author-role">CTO, Tech Solutions</div></div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up" role="listitem">
+          <div class="stars" aria-label="5 star rating"><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span></div>
+          <p class="testimonial-text">"The AI workflow they built for us is a game changer. What used to take our team 3 days now takes 2 hours. The ROI was visible in the first month. Highly recommend ZimTech."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #a78bfa, #7c3aed);" aria-hidden="true">MR</div>
+            <div><div class="author-name">Reid</div><div class="author-role">Operations Director, Corp</div></div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up" role="listitem">
+          <div class="stars" aria-label="5 star rating"><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span></div>
+          <p class="testimonial-text">"Our organic traffic grew by 340% in 6 months thanks to ZimTech's SEO strategy. They know what they're doing and they actually deliver. I wouldn't trust anyone else with our digital presence."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #f59e0b, #d97706);" aria-hidden="true">PK</div>
+            <div><div class="author-name">Kapoor</div><div class="author-role">Marketing Lead, GreenLeaf</div></div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up" role="listitem">
+          <div class="stars" aria-label="5 star rating"><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span></div>
+          <p class="testimonial-text">"Their IT consulting helped us avoid a costly infrastructure mistake. Zimam's advice saved us tens of thousands of dollars and put us on a path to sustainable scale."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #34d399, #059669);" aria-hidden="true">DL</div>
+            <div><div class="author-name">Liu</div><div class="author-role">COO, FinTech</div></div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up" role="listitem">
+          <div class="stars" aria-label="5 star rating"><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span></div>
+          <p class="testimonial-text">"The UI/UX redesign for our app was phenomenal. User retention increased by 45% and our app store reviews went from 3.2 to 4.8 stars. ZimTech just gets it."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #f87171, #dc2626);" aria-hidden="true">JW</div>
+            <div><div class="author-name">Walsh</div><div class="author-role">Product Manager, Fit App</div></div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up" role="listitem">
+          <div class="stars" aria-label="5 star rating"><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span><span class="star" aria-hidden="true">★</span></div>
+          <p class="testimonial-text">"Professional, responsive, and incredibly talented. ZimTech delivered our entire platform on time and under budget. They've become a long-term partner for all our tech needs."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #60a5fa, #2563eb);" aria-hidden="true">TN</div>
+            <div><div class="author-name">Tom Nakamuranz</div><div class="author-role">Founder, EdTech</div></div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info fade-up">
+          <div class="section-label">Get In Touch</div>
+          <h2 id="contact-heading" class="section-title">Let's Build Something Great</h2>
+          <p>Have a project in mind? Ready to take your business to the next level? Fill out the form and we'll get back to you within 24 hours.</p>
+          <div class="contact-detail" aria-label="Email contact">
+            <div class="contact-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-detail-label">Email</div><div class="contact-detail-value">zimamm40@gmail.com</div></div>
+          </div>
+          <div class="contact-detail" aria-label="Phone contact">
+            <div class="contact-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.18 2 2 0 012.08 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.28 7.66A16 16 0 0015.3 16.7l1.02-1.02a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <div><div class="contact-detail-label">Phone</div><div class="contact-detail-value">+971 502096272</div></div>
+          </div>
+          <div class="contact-detail" aria-label="Location">
+            <div class="contact-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><div class="contact-detail-label">Location</div><div class="contact-detail-value">Available Worldwide · Remote-First</div></div>
+          </div>
+        </div>
+        <div class="fade-up">
+          <div class="contact-form" role="form" aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John" autocomplete="given-name" required aria-required="true" />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" autocomplete="family-name" required aria-required="true" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" autocomplete="email" required aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service" aria-label="Select a service">
+                <option value="" disabled selected>Select a service...</option>
+                <option value="web">Web Development</option>
+                <option value="uiux">UI/UX Design</option>
+                <option value="seo">SEO</option>
+                <option value="it">IT Consulting</option>
+                <option value="ai">AI Workflow Creation</option>
+                <option value="other">Other / General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project, goals, and timeline..." required aria-required="true"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary form-submit" id="submitBtn" aria-label="Send your message">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+              ✓ Message sent! We'll be in touch within 24 hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="logo">Zim<span>Tech</span></a>
+          <p>Building innovative digital solutions that empower businesses to grow, scale, and compete in the modern digital economy.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="https://www.linkedin.com/in/mohamedzimam/" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="https://x.com/MhdZimam" class="social-link" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+            <a href="https://github.com/ZimamMohamed" class="social-link" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">UI/UX Design</a></li>
+            <li><a href="#services">SEO</a></li>
+            <li><a href="#services">IT Consulting</a></li>
+            <li><a href="#services">AI Workflows</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#founder">Our Founder</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:zimamm40@gmail.com">zimamm40@gmail.com</a></li>
+            <li><a href="tel:+15550123456">+971 502096272</a></li>
+            <li><a href="#contact">Get a Free Quote</a></li>
+            <li><a href="#contact">Start a Project</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 ZimTech. All rights reserved. Crafted by <a href="#founder" style="color: var(--accent);">Zimam Jaufer</a>.</span>
+        <span>Web Development · UI/UX Design · SEO · AI Automation</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button id="back-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- JavaScript — loaded at end of body for performance -->
+  <script src="script.js"></script>
+</body>
+</html>
